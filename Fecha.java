@@ -74,7 +74,8 @@ public class Fecha
      * Devuelve una copia exacta al objeto actual
      */
     public Fecha obtenerCopia() {
-         return null;
+        Fecha copiaFecha = new Fecha(this.dia, this.mes, this.año); 
+        return copiaFecha;
 
     }
 
@@ -82,7 +83,7 @@ public class Fecha
      * 
      */
     public String toString() {
-        return this.dia + "/"  + this.mes+ "/" + this.año;
+        return this.dia + "/"  + this.mes + "/" + this.año;
 
     }
 
